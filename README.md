@@ -1,3 +1,3 @@
 # Lambda-restaurant
 Site criado a partir de um mockup encontrado na internet.
-Utilizado apenas HTML5 e CSS3 para fazer o site.
+Utilizado HTML5, CSS3 e Javascript para fazer o site.

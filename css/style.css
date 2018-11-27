@@ -1,0 +1,369 @@
+body, h1, h2, p, ul, li, a{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 1.25em;
+}
+
+*{
+    box-sizing:  border-box;
+}
+
+.gray-ornament, .golden-ornament{
+	width: 150px;
+	margin: 3px auto;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+.menu{
+	max-width: 1175px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.menu a{
+	color: #fff;
+}
+
+.menu-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-nav li{
+	margin: 10px 20px;
+}
+
+.menu-nav a{
+	display: block;
+	font-size: 1.3em;
+	font-family: 'Gentium Book Basic', serif;
+
+}
+
+/* Banner Principal */
+
+.banner-bg{
+	background-image: url(../images/bg-principal-01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 750px;
+	padding: 30px;
+}
+
+.banner-info{
+	margin-top: 80px; 
+}
+
+.banner-info h1{
+	text-align: center;
+	color: #fff;
+	font-family: 'Yeseva One', cursive;
+	font-size: 5.6em;
+}
+
+.white-ornament{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.form-banner{
+	display: flex;
+	justify-content: center;
+	margin: 15px auto;
+}
+
+.form-banner input {
+	flex: 0 1 230px;
+	margin: 0 10px;
+  padding: 10px;
+  color: #fff;
+	border: none;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+}
+
+#black-button {
+  background: rgba(32, 40, 42, 0.7);   
+}
+
+#white-button{
+	background: rgba(255, 255, 255, 0.2);   
+}
+
+@media (max-width: 575.98px){
+	.banner-bg{
+		background: url(../images/bg-principal-01-restaurant.jpg);
+		background-size: cover;	
+	}
+	.menu{
+		justify-content: space-between;
+		margin: 5px;
+	}
+	.banner-info h1 {
+		font-size: 1.5em;
+	}
+	.white-ornament{
+    width: 100px;
+	}
+}
+
+/* About */
+
+.about {
+	background: url(../images/bg-principal-02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 710px;
+}
+
+.about-info{
+	margin: 15px 50px;
+	flex: 0 1 400px;
+}
+
+.food{
+	flex: 0 2 400px;
+}
+
+.about-info h2 {
+	text-align: center;
+	color: #dab444;
+	font-family: 'Yeseva One', cursive;
+	font-size: 1.25em;
+}
+.about-info p {
+	font-size: 1em;
+	text-align: center;
+	color: #4c4c4c;
+}
+.chef-cooking{
+	margin: 10px auto;
+}
+
+/* Ingredients */
+
+.ingredients{
+	background: url(../images/bg-principal-03.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 760px;
+	padding: 200px 0;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.ingredients-info{
+	color: #fff;
+	text-align: center;
+	background: rgba(32, 40, 42, 0.7);
+	max-width: 500px;
+	padding: 40px;
+	margin: 0 200px;
+}
+
+@media (max-width: 575.98px){
+	.ingredients-info{
+		margin: 0 auto;
+	}
+}
+
+.ingredients-image{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px 0;
+}
+
+.trigo, .pimenta, .pao{
+	margin: 15px 10px;
+}
+
+/* Cardapio */
+
+.menu-food-bg{
+	background: url(../images/bg-principal-04.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu-food{
+	display: flex;
+	margin: 0px auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 960px;
+}
+
+.menu-food-item{
+	padding: 50px 0;
+	flex: 1 1 260px;
+	margin: 0 40px;
+}
+
+.menu-food-item h2{
+	color: #cc9900;
+}
+
+.menu-price{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	/* border-bottom: 2px solid #e9dfbc; */
+}
+
+.menu-price p{
+	font-size: .8em;
+}
+
+.menu-price h3, span{
+	color: #c89f2d;
+}
+
+
+
+/* Reviews */
+
+.reviews {
+	background: url(../images/bg-principal-05.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 760px;
+	padding: 200px 0;
+}
+
+.reviews-info{
+	background: rgba(32, 40, 42, 0.7);
+	padding: 50px;
+	margin: auto;
+	color: #fff;
+	max-width: 400px;
+}
+
+.reviews-info p{
+	text-align: center;
+
+}
+
+
+.reservations-info p{
+	font-size: 1em;
+}
+
+
+/* Reservations */
+
+.reservations{
+	background: url(../images/bg-principal-06.jpg);
+	min-height: 710px;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 80px 0;
+}
+
+.reservations-item{
+	margin: 20px;
+	flex: 0 1 320px;
+}
+
+.reservations-info p {
+	text-align: center;
+}
+
+.reservations-info h2{
+	color: #cc9900;
+}
+
+.reservations-form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 260px;
+	margin: 15px auto;
+}
+
+.reservations-form button{
+	display: block;
+	width: 150px;
+	background: #c9a131;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.reservations-form input{
+	margin: 0 0 10px 0;
+	width: 100px;
+	border: 1px solid #c8c6c6;
+	color: #a4a5a5;
+}
+
+.reservations-form label{
+	color: #c9a131;
+}
+
+#nome,#email,#date,#number {
+	display: block;
+}
+
+/* Footer */
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: #191919;
+	color: #d1d1d1;
+	text-align: center;
+	padding: 15px;
+}
+
+.footer-item{
+	flex: 0 280px;
+	margin: 5px;
+}
+
+.footer-item-header h2{
+	font-size: 1.3em
+}
+
+.footer-item-header p{
+	font: 1rem;
+}

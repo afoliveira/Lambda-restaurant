@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lambda Restaurant</title>
+</head>
+<body>
+  <header class="banner-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <img src="images/logo_03.png" alt="Lambda Restaurant logo">
+      </div>
+      <nav class="menu-nav menu-nav-collapse">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ingredients">Ingredients</a></li>
+          <li><a href="#menu-food">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="reservations">Reservations</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="banner-info">
+      <h1>the right ingredients for the right food</h1>
+      <img class="white-ornament" src="images/enfeite-branco-promo_03.png" alt="White Ornament">
+      <form class="form-banner">
+        <input type="button" id="black-button" value="book a table">
+        <input type="button" id="white-button" value="see the menu">
+      </form>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="about-info">
+      <h2>Just the right food</h2>
+      <img  class="golden-ornament" src="images/enfeite-dourado_07.png" alt="Gold Ornament">
+      <p>you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+      <img class="chef-cooking" src="images/chef.png" alt="Chef Signature">
+    </div>
+
+    <div class="food">
+      <img src="images/prato-sobre_04.png" alt="Food demonstrative">
+    </div>
+  </section>
+
+  <!-- Ingredients -->
+  <section class="ingredients" id="ingredients">
+    <div class="ingredients-info">
+      <h2>Fine ingredients</h2>
+      <img class="gray-ornament" src="images/enfeite-branco_19.png">
+      <p>you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+      </p>
+
+      <div class="ingredients-image">
+        <div class="trigo">
+          <img src="images/trigo.png" alt="">
+        </div>
+        <div class="pimenta">
+          <img src="images/pimenta.png" alt="">
+        </div>
+        <div class="pao">
+          <img src="images/pao.png" alt="">
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Menu Food -->
+  <section class="menu-food-bg" id="menu-food">
+    <div class="menu-food">
+      <div class="menu-food-item appetisers">
+        <h2>Appetisers</h2>
+        <img class="golden-ornament" src="images/enfeite-dourado_07.png" alt="Gold Ornament">
+
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+          <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+        </div>
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>
+        <div class="menu-price">
+            <h3>Tzatkisi</h3>
+            <span>$3.99</span>
+        </div>
+      </div>
+
+      <div class="menu-food-item salads">
+        <h2>Salads</h2>
+        <img class="golden-ornament" src="images/enfeite-dourado_07.png" alt="Gold Ornament">
+
+        <div>
+          <div class="menu-price">
+            <h3>Tzatkisi</h3>
+            <span>$3.99</span>
+          </div>
+          <div class="menu-price">
+            <h3>Tzatkisi</h3>
+            <span>$3.99</span>
+          </div>
+          <div class="menu-price">
+            <h3>Tzatkisi</h3>
+            <span>$3.99</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-food-item starters">
+        <h2>Starters</h2>
+        <img class="golden-ornament" src="images/enfeite-dourado_07.png" alt="Gold Ornament">
+
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>
+      </div>
+
+      <div class="menu-food-item main-dishes">
+        <h2>Main Dishes</h2>
+        <img class="golden-ornament" src="images/enfeite-dourado_07.png" alt="Gold Ornament">
+
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>
+        <div class="menu-price">
+          <h3>Tzatkisi</h3>
+          <span>$3.99</span>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews" id="reviews">
+    <div class="reviews-info">
+      <h2>Guest Reviews</h2>
+      <img class="gray-ornament" src="images/enfeite-branco_19.png" alt="Gray Ornament">
+      <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+      <p>- food inc, New York</p>
+    </div>
+  </section>
+
+  <!-- Reservations -->
+
+  <section class="reservations" id="reservations">
+    <div class="reservations-item">
+      <img src="images/aperitivo-01.jpg">
+    </div>
+
+    <div class="reservations-item">
+        <img src="images/aperitivo-02.jpg">
+    </div>
+
+    <div class="reservations-item reservations-info">
+      <h2>Just the right food</h2>
+      <img class="golden-ornament" src="images/enfeite-dourado_07.png" alt="Golden Ornament">
+      <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p>
+      <p>Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
+
+      <form class="reservations-form">
+        <label>Name
+          <input type="text" placeholder="your name*" id="nome">
+        </label>
+        
+        <label>Email
+          <input type="email" placeholder="your email*" id="email">
+        </label>
+        
+        <label>Date
+          <input type="date" placeholder="date*" id="date">
+        </label>
+        
+        <label>Number
+          <input type="text" placeholder="party number" id="number">
+        </label>
+
+        <button type="submit">Book now!</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-item">
+      <div class="footer-item-header">
+        <h2>About Us</h2>
+        <img class="gray-ornament" src="images/enfeite-branco_19.png">
+      </div>
+      <p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.
+      Lamda the best restaurant in town</p>
+    </div>
+
+    <div class="footer-item">
+      <div class="footer-item-header">
+        <h2>Opening Hours</h2>
+        <img class="gray-ornament" src="images/enfeite-branco_19.png">
+      </div>
+      <p>Mon-Thu: 7:00am-8:00pm </p>
+      <p>Fri-Sun: 7:00am-10:00pm</p>
+    </div>
+
+    <div class="footer-item">
+      <div class="footer-item-header">
+        <h2>Our Location</h2>
+        <img class="gray-ornament" src="images/enfeite-branco_19.png">
+      </div>
+      <p>19th Paradise Street Sitia</p>
+      <p>128 Meserole Avenue</p>
+    </div>
+  </footer>
+</body>
+</html>
